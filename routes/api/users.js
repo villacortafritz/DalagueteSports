@@ -6,3 +6,5 @@ const router = express.Router();
 //@access PUBLIC
 
 router.get("/", (req, res) => res.send("User route"));
+
+module.exports = router;
